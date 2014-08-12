@@ -5,7 +5,13 @@
   "devDependencies": {
     "chai": "^1.9.1",
     "chai-as-promised": "^4.1.1",
+    "gulp": "^3.8.7",
+    "gulp-istanbul": "^0.2.1",
+    "gulp-mocha": "^0.5.2",
     "proxyquire": "^1.0.1",
     "sinon": "^1.10.3"
+  },
+  "scripts": {
+    "test": "gulp test"
   }
 }
